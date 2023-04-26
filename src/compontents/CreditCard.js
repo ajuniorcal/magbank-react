@@ -25,16 +25,24 @@ const CreditCard = () => {
 
           <Row>
             <Col xs={12} lg={6} className="mb-4">
-              <IconText icon={faCreditCard}>Crédito pessoal</IconText>
+              <IconText icon={faCreditCard} color="#f05656">
+                Crédito pessoal
+              </IconText>
             </Col>
             <Col xs={12} lg={6} className="mb-4">
-              <IconText icon={faShoppingCart}>Pagamentos Online</IconText>
+              <IconText icon={faShoppingCart} color="#f05656">
+                Pagamentos Online
+              </IconText>
             </Col>
             <Col xs={12} lg={6} className="mb-4">
-              <IconText icon={faMobile}>APP</IconText>
+              <IconText icon={faMobile} color="#f05656">
+                APP
+              </IconText>
             </Col>
             <Col xs={12} lg={6} className="mb-4">
-              <IconText icon={faWallet}>Carteira Digital</IconText>
+              <IconText icon={faWallet} color="#f05656">
+                Carteira Digital
+              </IconText>
             </Col>
           </Row>
         </Col>
