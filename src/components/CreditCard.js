@@ -7,7 +7,6 @@ import creditCard from "../assets/credit-card.jpg";
 import "./CreditCard.scss";
 import IconText from "./IconText";
 import {
-  /* faCoffee, */
   faCreditCard,
   faMobile,
   faShoppingCart,
@@ -25,22 +24,42 @@ const CreditCard = () => {
 
           <Row>
             <Col xs={12} lg={6} className="mb-4">
-              <IconText icon={faCreditCard} color="#f05656">
+              <IconText
+                icon={faCreditCard}
+                color="#f05656"
+                textClassName="h5 text-muted"
+                size={2}
+              >
                 Crédito pessoal
               </IconText>
             </Col>
             <Col xs={12} lg={6} className="mb-4">
-              <IconText icon={faShoppingCart} color="#f05656">
+              <IconText
+                icon={faShoppingCart}
+                color="#f05656"
+                textClassName="h5 text-muted"
+                size={2}
+              >
                 Pagamentos Online
               </IconText>
             </Col>
             <Col xs={12} lg={6} className="mb-4">
-              <IconText icon={faMobile} color="#f05656">
+              <IconText
+                icon={faMobile}
+                color="#f05656"
+                textClassName="h5 text-muted"
+                size={2}
+              >
                 APP
               </IconText>
             </Col>
             <Col xs={12} lg={6} className="mb-4">
-              <IconText icon={faWallet} color="#f05656">
+              <IconText
+                icon={faWallet}
+                color="#f05656"
+                textClassName="h5 text-muted"
+                size={2}
+              >
                 Carteira Digital
               </IconText>
             </Col>
