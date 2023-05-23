@@ -1,12 +1,16 @@
 .navbar {
-    background-color: #8c00b2;
-    border-bottom: 0.2rem solid #f05656;
-  
-    a {
-      color: #fff;
-    }
-  
-    a:hover, a:active {
-      color: #212529;
-    }
+  background-color: #8c00b2;
+  border-bottom: 0.2rem solid #f05656;
+
+  a {
+    color: #fff;
   }
+
+  a:hover, a:active {
+    color: #212529;
+  }
+
+  &__search-group {
+    width: 28rem;
+  }
+}

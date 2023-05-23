@@ -1,0 +1,59 @@
+.dashboard {
+  @media screen and (min-width: 992px) {
+    min-height: calc(100vh - 12.25rem);
+  }
+
+  &__user-avatar {
+    position: relative;
+  }
+
+  &__user-icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -100%);
+  }
+
+  &__button {
+    color: #8c00b2;
+    text-decoration: none;
+    margin-bottom: 0.5rem;
+
+    &:hover,
+    &:focus,
+    &--active,
+    &--active:hover {
+      text-decoration: none;
+    }
+
+    &:hover,
+    &--active,
+    &--active:hover {
+      color: #fff;
+    }
+
+    &:hover {
+      background-color: #626262;
+    }
+
+    &--active,
+    &--active:hover {
+      background-color:#8c00b2;
+    }
+  }
+
+  a.nav-item.nav-link {
+    color:#8c00b2;
+  }
+
+  a.nav-item.nav-link.active {
+    color: #626262;
+  }
+}
+
+a.dashboard__link,
+a.dashboard__link:active,
+a.dashboard__link:focus,
+a.dashboard__link:hover {
+  text-decoration: none; 
+}

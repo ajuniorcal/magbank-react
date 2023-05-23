@@ -2,11 +2,7 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Button from "react-bootstrap/Button";
-import {
-  faGlobe,
-  faMobileAlt,
-  faShieldAlt,
-} from "@fortawesome/free-solid-svg-icons";
+import { faGlobe, faMobileAlt, faShieldAlt } from "@fortawesome/free-solid-svg-icons";
 import { faMobile } from "@fortawesome/free-solid-svg-icons";
 
 import IconText from "./IconText";
@@ -23,32 +19,21 @@ const Institutional = () => {
             <h2 className="institutional-title my-5">Já nascemos digital</h2>
 
             <p className="mb-5">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
-              tincidunt arcu vel arcu fermentum, eget accumsan dolor dignissim.
-              Nam eget quam semper, varius ligula sed, auctor augue. Maecenas et
-              porta magna. Nulla mattis tortor vitae metus vestibulum
-              scelerisque. Ut mollis a nisl vel suscipit. Curabitur scelerisque
-              placerat ultrices. Proin purus ante, congue vel arcu ac, porta
-              condimentum mauris. Maecenas massa orci, fringilla eget fermentum
-              nec, dignissim nec diam.
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tincidunt arcu vel arcu fermentum,
+              eget accumsan dolor dignissim. Nam eget quam semper, varius ligula sed, auctor augue. Maecenas et
+              porta magna. Nulla mattis tortor vitae metus vestibulum scelerisque. Ut mollis a nisl vel suscipit.
+              Curabitur scelerisque placerat ultrices. Proin purus ante, congue vel arcu ac, porta condimentum mauris.
+              Maecenas massa orci, fringilla eget fermentum nec, dignissim nec diam.
             </p>
 
             <div className="px-2">
-              <IconText icon={faMobileAlt} className="mb-2">
-                Sem fila e sem burocracia
-              </IconText>
+              <IconText icon={faMobileAlt} className="mb-2">Sem fila e sem burocracia</IconText>
 
-              <IconText icon={faMobile} className="mb-2">
-                Simples e prático
-              </IconText>
+              <IconText icon={faMobile} className="mb-2">Simples e prático</IconText>
 
-              <IconText icon={faGlobe} className="mb-2">
-                Abertura de conta 100% online
-              </IconText>
+              <IconText icon={faGlobe} className="mb-2">Abertura de conta 100% online</IconText>
 
-              <IconText icon={faShieldAlt} className="mb-2">
-                Transações seguras
-              </IconText>
+              <IconText icon={faShieldAlt} className="mb-2">Transações seguras</IconText>
             </div>
 
             <Button variant="outline-light" className="mt-5">
@@ -58,7 +43,7 @@ const Institutional = () => {
         </Row>
       </Container>
     </section>
-  );
-};
+  )
+}
 
 export default Institutional;
